@@ -1,5 +1,5 @@
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-netlify';
 import { imagetools } from 'vite-imagetools';
 
 /** @type {import('@sveltejs/kit').Config} */
