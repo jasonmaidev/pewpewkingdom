@@ -1,0 +1,63 @@
+/* @font-face {
+  font-family: 'LuckiestGuy';
+  font-display: swap;
+    font-style: italic;
+    font-weight: 700;
+  src: url(/fonts/LuckiestGuy.ttf);
+} */
+@font-face {
+	font-family: 'Gibson';
+	font-display: swap;
+	font-style: normal;
+	font-weight: 800 900;
+	src: url(/fonts/Gibson-Bold.otf);
+}
+@font-face {
+	font-family: 'Gibson';
+	font-display: swap;
+	font-style: italic;
+	font-weight: 800 900;
+	src: url(/fonts/Gibson-BoldItalic.otf);
+}
+@font-face {
+	font-family: 'Gibson';
+	font-display: swap;
+	font-style: italic;
+	font-weight: 400 500;
+	src: url(/fonts/Gibson-Italic.otf);
+}
+@font-face {
+	font-family: 'Gibson';
+	font-display: swap;
+	font-style: normal;
+	font-weight: 100 300;
+	src: url(/fonts/Gibson-Light.otf);
+}
+@font-face {
+	font-family: 'Gibson';
+	font-display: swap;
+	font-style: italic;
+	font-weight: 100 300;
+	src: url(/fonts/Gibson-LightItalic.otf);
+}
+@font-face {
+	font-family: 'Gibson';
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400 500;
+	src: url(/fonts/Gibson-Regular.otf);
+}
+@font-face {
+	font-family: 'Gibson';
+	font-display: swap;
+	font-style: normal;
+	font-weight: 600 700;
+	src: url(/fonts/Gibson-SemiBold.otf);
+}
+@font-face {
+	font-family: 'Gibson';
+	font-display: swap;
+	font-style: italic;
+	font-weight: 600 700;
+	src: url(/fonts/Gibson-SemiBoldItalic.otf);
+}

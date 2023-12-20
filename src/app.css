@@ -1,0 +1,49 @@
+/* Write your global styles here, in PostCSS syntax */
+@import './css/animations.css';
+@import './css/fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	min-height: 100vh;
+	@apply text-purple;
+}
+
+/** base dark class applied to document body */
+body.dark {
+	@apply bg-purple;
+}
+
+/** easy dark mode, override with dark:* modifiers */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark span,
+.dark p,
+.dark strong,
+.dark button,
+.dark ul {
+	@apply text-white;
+}
+
+/**	utils */
+
+.flip-x {
+	transform: scale(-1, 1);
+}
+
+.card {
+	@apply border-8 border-purple-dark rounded-3xl py-3 px-6;
+	box-shadow: 0px 0px 50px 5px rgb(0 0 0 / 25%);
+}
+
+/** layout stuff */
+
+section {
+	@apply px-8 max-w-full;
+}
